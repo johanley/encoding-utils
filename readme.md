@@ -1,7 +1,14 @@
-# Simple tools for single-byte text encodings
+# Simple tools for text having a single-byte encoding 
 
-The classes are mostly independent of each other.
+The code is low-level, and examines byte-values directly.
 
+The various classes are mostly independent of each other:
+- examine a file's bytes
+- stats for the bytes appearing in a file
+- find-and-replace a given byte
+- change straight-quotes (not pretty) to curly-quotes (pretty) (using `windows-1252`)
+
+I tried to write a tool to inspect the bytes on the clipboard, but apparently OS's don't allow that. 
 
 ## Example output of Histogram.java
 
