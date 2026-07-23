@@ -13,9 +13,9 @@ I tried to write a tool to inspect the bytes on the clipboard, but apparently OS
 ## Example output of Histogram.java
 
 The `Histogram.java` class outputs a summary of the byte-values that occur in a given text.
-It's a good place to start when analyzing un-sanitized text.
+It's a good place to start when analyzing text.
 
-It looks like this:
+The output to stdout looks like this:
 
 ```
 00(0):0
