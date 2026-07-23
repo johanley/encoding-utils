@@ -60,13 +60,15 @@ Incompatible with Windows-1252: [ ]
 ## Notepad++
 
 Its `Encoding` menu is split into two parts:
-- show these bytes assuming encoding X
-- attempt to convert these bytes to encoding Y
+- **render** these bytes assuming encoding X
+- **attempt to convert** these bytes to encoding Y
 
-The word ANSI may not mean what you think it means.
+The word ANSI may not mean what you think it means:
+
 https://community.notepad-plus-plus.org/topic/27258/standard-ansi-and-code-still-change-to-something-else/2
 
-Be careful of its default behavior.
+Be careful of its default behavior:
+
 https://community.notepad-plus-plus.org/topic/24635/how-to-save-file-with-new-encoding/2
 
 
