@@ -25,7 +25,8 @@ Otherwise it will use UTF-8 as the system default.
 
 It looks like this:
 
-`00(0):0
+```
+00(0):0
 01(1):0
 02(2):0
 03(3):0
@@ -43,9 +44,9 @@ It looks like this:
 0F(15):0
 10(16):0
 ...elided...
-FF(255):0`
+FF(255):0
 
-`   0 1 2 3 4 5 6 7 8 9 A B C D E F
+   0 1 2 3 4 5 6 7 8 9 A B C D E F
 00| | | | | | | | | | |x| | |x| | 
 10| | | | | | | | | | | | | | | | 
 20|x|x| |x| | |x| |x|x| |x|x|x|x|x
@@ -68,4 +69,5 @@ Num tab chars: 0
 Incompatible with ASCII: [ 91(145) 92(146) ..elided.. ]
 Incompatible with 8859-1: [ 91(145) 92(146) 93(147) 94(148) ]
 Incompatible with ISOLatin1Encoding (PostScript only): [ ]
-Incompatible with Windows-1252: [ ]`
+Incompatible with Windows-1252: [ ]
+```
