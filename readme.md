@@ -2,26 +2,11 @@
 
 The classes are mostly independent of each other.
 
-The `Histogram.java` class outputs a summary of the byte-values that occur in a given text.
-It's a good place to start when analyzing un-sanitized text.
-
-## Notepad++
-
-The encoding menu is split into two parts:
-- show these bytes assuming encoding X
-- attempt to convert these bytes to encoding Y
-
-The word ANSI may not mean what you think it means.
-https://community.notepad-plus-plus.org/topic/27258/standard-ansi-and-code-still-change-to-something-else/2
-
-Be careful of its default behavior.
-https://community.notepad-plus-plus.org/topic/24635/how-to-save-file-with-new-encoding/2
-
-Windows Notepad
-Note that you can choose ANSI encoding when opening a file, but you need to use its File Open dialog in order to do so.
-Otherwise it will use UTF-8 as the system default.
 
 ## Example output of Histogram.java
+
+The `Histogram.java` class outputs a summary of the byte-values that occur in a given text.
+It's a good place to start when analyzing un-sanitized text.
 
 It looks like this:
 
@@ -71,3 +56,17 @@ Incompatible with 8859-1: [ 91(145) 92(146) 93(147) 94(148) ]
 Incompatible with ISOLatin1Encoding (PostScript only): [ ]
 Incompatible with Windows-1252: [ ]
 ```
+
+## Notepad++
+
+Its `Encoding` menu is split into two parts:
+- show these bytes assuming encoding X
+- attempt to convert these bytes to encoding Y
+
+The word ANSI may not mean what you think it means.
+https://community.notepad-plus-plus.org/topic/27258/standard-ansi-and-code-still-change-to-something-else/2
+
+Be careful of its default behavior.
+https://community.notepad-plus-plus.org/topic/24635/how-to-save-file-with-new-encoding/2
+
+
